@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>First Choice</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-------header section--------->
+
+	<section class="header" id="header">
+		
+		<div class="poster">
+			<a href=""><img src="img/poster21.jpg"></a>
+			<!---------cart--------->
+			<div class="cart">
+				 <button data-hover="click me!">
+				 	<div>
+				 		<a href="#" style="text-decoration: none; color: #000;"><i class="fa fa-car"></i>cart</a>
+				 	</div>
+				 </button>
+			</div>
+			
+
+			<!-----------popup account----------->
+			<section>
+				<div class="popup">
+  				<!-------account----- -->
+					<div class="account">	
+						<a href="#" id="myBtn" class="yourac">Your Account<i class="fa fa-user-plus" aria-hidden="true"></i></a>
+					</div>
+  				<!-- Modal -->
+  					<div class="modal fade" id="myModal" role="dialog">
+    					<div class="modal-dialog modal-lg">
+    
+      					<!-- Modal content-->
+      						<div class="modal-content">
+        						<div class="modal-header" style="background-color: #404040!important;">
+          							<button type="button" class="close" data-dismiss="modal">&times;</button>
+        						</div>
+
+        						<!---------Account form--------->
+        						<div class="container" id="container">
+									<div class="form-container sign-up-container">
+										<form action="#">
+										<h1>Create Account</h1>
+											<div class="social-container">
+												<a href="#" class="social"><i class="fa fa-facebook"></i></a>
+												<a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+												<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+											</div>
+											<span>or use your email for registration</span>
+											<input type="text" placeholder="Name" />
+											<input type="email" placeholder="Email" />
+											<input type="password" placeholder="Password" />
+											<button>Sign Up</button>
+										</form>
+									</div>
+									<div class="form-container sign-in-container">
+										<form action="#">
+											<h1>Sign in</h1>
+											<div class="social-container">
+												<a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+												<a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+												<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+											</div>
+											<span>or use your account</span>
+											<input type="email" placeholder="Email" />
+											<input type="password" placeholder="Password" />
+											<a href="#">Forgot your password?</a>
+											<button>Sign In</button>
+										</form>
+									</div>
+									<div class="overlay-container">
+										<div class="overlay">
+											<div class="overlay-panel overlay-left">
+												<h1>Welcome Back!</h1>
+												<p>To keep connected with us please login with your personal info</p>
+												<button class="ghost" id="signIn">Sign In</button>
+											</div>
+											<div class="overlay-panel overlay-right">
+												<h1>Hello, Friend!</h1>
+												<p>Enter your personal details and start journey with us</p>
+												<button class="ghost" id="signUp">Sign Up</button>
+											</div>
+										</div>
+									</div>	
+					        	</div>
+
+      						</div>      
+    					</div>
+  					</div> 
+				</div>
+
+			</section>
+
+
+
+	<!----------buttons--------->
+			<div class="box">
+  				<a href="about.html" class="btn btn-white btn-animation-1">About Us</a>
+  				<a href="#" class="btn btn-white btn-animation-1">Media room</a> 
+  				<a href="#" class="btn btn-white btn-animation-1">Contact Us</a> 
+  				<a href="#" class="btn btn-white btn-animation-1">Get Job</a>  
+			</div>	
+		</div>
+		
+	</section>
+
+<!-----------navbar------------->
+	<section id="nav-bar">
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#"><img src="img/logo4.PNG"></a>
+  		 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+  				aria-expanded="false" aria-label="Toggle navigation">
+   			 	<span class="navbar-toggler-icon"></span>
+ 			</button>
+ 	 		<div class="collapse navbar-collapse" id="navbarNav">
+   				<ul class="navbar-nav m-auto">
+    		 		<li class="nav-item">
+     		   			<a class="nav-link" href="#">Services</a>
+     		   			<ul class="submenu">
+     		   				<li><a href="">Maintenence service</a></li>
+     		   				<li><a href="">Accessories</a></li>
+     		   				<li><a href="">Running Repair</a></li>
+     		   				<li><a href="">Service Package</a></li>
+     		   				<li><a href="">Body Repair</a></li>
+     		   				<li><a href="">A C System</a></li>
+     		   				<li><a href="">Car Care</a></li>
+     		   				<li><a href="">Roadside Assistance</a></li>
+     		   				<li><a href="">Car Modiefied</a></li>
+     		   			</ul>
+     		 		</li>
+     		 		<li class="nav-item">
+     	 	  			<a class="nav-link" href="#">Offers</a>
+     		 		</li>
+    		  		<li class="nav-item">
+     		   			<a class="nav-link" href="#">Emergency Repair</a>
+     		   			<ul class="submenu">
+     		   				<li><a href="">Two wheeler</a></li>
+     		   				<li><a href="">Four wheeler</a></li>
+     		   			</ul>
+     		 		</li>
+     		 		<li class="nav-item">
+     		  			 <a class="nav-link" href="#">Vehical Parts</a>
+     		  			 <ul class="submenu">
+     		   				<li><a href="">Two Wheeler</a></li>
+     		   				<li><a href="">Four Wheeler</a></li>
+     		   			</ul>
+    		 		</li>
+    		  		<li class="nav-item">
+     		   			<a class="nav-link" href="#">Our Experts</a>
+    		 		</li>
+    		  		<li class="nav-item">
+     		  	 		<a class="nav-link" href="#">FAQ</a>
+    		 		</li>
+    			</ul>
+ 			 </div>	
+		</nav>
+		
+	</section>
+
+
+<!-------------Slider-------------------->
+
+<section id="slider">
+	
+	<div class="slider">
+  		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    		<ol class="carousel-indicators">
+      			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    		</ol>
+    		<div class="carousel-inner">
+      			<div class="carousel-item active">
+        			<a href=""><img src="img/posterbooking.JPG" class="d-block w-100"></a>
+        			
+      			</div>
+      			<div class="carousel-item">
+        			<a href=""><img src="img/posterbooking1.JPG" class="d-block w-100"></a>
+        			
+      			</div>
+      			<div class="carousel-item">
+        			<a href=""><img src="img/posterbooking2.JPG" class="d-block w-100"></a>
+        			<!-- <div class="carousel-caption d-none d-md-block">
+          				<h5>Third slide label</h5>
+          				<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        			</div> -->
+      			</div>
+    		</div>
+    		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      			<span class="sr-only">Previous</span>
+    		</a>
+    		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		     	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		      	<span class="sr-only">Next</span>
+    		</a>
+  		</div>
+	</div>
+
+
+</section>
+
+
+<!------------ouradvantage----------->
+
+<section class="ouradvantage">
+			 
+    <div class="container">
+        <div class="title-style text-center">
+           <h1>Our Advantage</h1>
+           <img src="img/mac1.JPG">
+        </div>
+        <p class="text-center">
+        	<br>
+	        Mahindra First Choice Services, India’s leading chain of multi-brand car workshops, is one stop destination for all your car maintenance needs. Our advantages are:<br>
+
+			<h5>Transparency:</h5>For a customer, it is very important that he should not be thinking about his car continuously after giving it for repairs at any workshop, he should not worry at any given time, and he should be assured that his car is in right hands. At MFCS, we ensure that every need of the customer is taken care of and he is explained each and every job done on his car.<br><br>
+
+			<h5>Affordability:</h5>At MFCS, we give value offerings to our customers, we not only make our customer happy but also their car very happy.<br>
+			<br>
+
+			<h5>State-of-the-art Equipment:</h5>All our workshops are equipped with State-of- the-art Equipment and infrastructure to diagnose the problems in your car. The right diagnosis is half the job done, right?<br><br>
+
+			<h5>Skilled Manpower:</h5> At MFCS, the skilled manpower is capable to solve all your car maintenance problems, our manpower is trained at Technical Training Centers in Bengaluru and Noida.<br><br>
+
+			<h5>24 X 7 Convenient Online Booking:</h5> You can book any service 24 x 7 online, login to our website www.mahindrafirstchoiceservices.com.
+			<br><br>
+
+			<h5>Quality Spares:</h5> Be it any brand of the car you own, we use quality spares from reputed brands, At MFCS, you get warranty on spares too.
+			<br><br>
+
+			<h5>Pick-up & Drop Facility:</h5> Your convenience is our motto, wherever you are, we will pick your car and deliver at your doorstep, spend that extra time with your loved ones.<br><br>
+        </p>
+    </div>
+
+</section>
+
+
+<!------------multibrandservice----------->
+
+<section class="multibrand">
+	
+	<div class="multi">
+		<h1>Multi Brand Car Service Center</h1>
+		<br>
+		<p>	
+			Mahindra First Choice Services is India’s leading chain of multi-brand car service workshops offering wide array of services.
+		 	We focus on enhancing your driving experience by offering world-class car maintenance services for cars of all makes and models.
+		 	Our sole mission is “To provide car care services to keep the cars fit and healthy and customers happy and smiling”.
+		 	<br><br>
+
+			With well-equipped car service stations and fully trained mechanics, we provide quality services with excellent packages that 
+			are designed to offer you great savings.<br><br>
+
+			Our state-of-art workshops are conveniently located in many cities across the country. Now you can book your service
+			online at the nearest Mahindra First Choice Services Workshop.
+		</p>
+	</div>
+
+</section>
+
+
+<!------------get-in-touch----------->
+
+	<section id="contact">
+		
+		<div class="contact">
+			<div class="text-center"><h1>Get In Touch</h1></div>
+			<div class="row">
+				<div class="col-md-6">
+				   	<form class="contact-form">
+				   		<div class="form-group">
+				   			<input type="text" class="form-control" placeholder="Your Name">
+				   		</div>
+				   		<div class="form-group">
+				   			<input type="number" class="form-control" placeholder="Phone no.">
+				   		</div>
+				   		<div class="form-group">
+				   			<input type="email" class="form-control" placeholder="Email id">
+				   		</div>
+				   		<div class="form-group">
+				   			<textarea class="form-control" rows=4 placeholder="Your Message"></textarea>
+				   		</div>
+				   		<button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+				   	</form>
+				</div>
+				<div class="col-md-6 contact-info">
+					<div class="follow"><b>Address:</b> <i class="fa fa-map-marker"></i>Fullanpur,lanka road ,Ghazipur</div>
+					<div class="follow"><b>Phone:</b> <i class="fa fa-phone"></i>+91 9696303941</div>
+					<div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i> anandsinghc22@gmail.com</div>
+					<div class="follow"><label><b>Get Social:</b></label>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+<!-------------footer------------->
+    <footer class="site-footer">
+      	<div class="containe">
+        	<div class="row">
+          		<div class="col-xs-6 col-md-3">
+            		<h6>About Us</h6>
+            		<ul class="footer-links">
+              			<li><a href=" ">Privacy Policy</a></li>
+              			<li><a href=" ">Terms & Condition</a></li>
+              			<li><a href=" ">Contact Us</a></li>
+              			<li><a href=" ">About Us</a></li>
+            		</ul>
+          		</div>
+
+          		<div class="col-xs-6 col-md-3">
+            		<h6>Services</h6>
+            		<ul class="footer-links">
+              			<li><a href=" ">Maintenance Service</a></li>
+              			<li><a href=" ">Accessories</a></li>
+              			<li><a href=" ">Running Repair</a></li>
+              			<li><a href=" ">Maintenance Package</a></li>
+              			<li><a href=" ">Body Repair</a></li>
+              			<li><a href=" ">Air Conditioning System</a></li>
+              			<li><a href=" ">Car Care</a></li>
+              			<li><a href=" ">24*7 Roadside Assistance</a></li>
+              			<li><a href=" ">Car Modiefied</a></li>
+
+            		</ul>
+          		</div>
+
+          		<div class="col-xs-6 col-md-3">
+            		<h6>Quick Links</h6>
+            		<ul class="footer-links">
+              			<li><a href=" ">Offer</a></li>
+              			<li><a href=" ">Blog</a></li>
+              			<li><a href=" ">Ask Our Expert</a></li>
+            		</ul>
+          		</div>
+
+          		<div class="col-xs-6 col-md-3">
+            		<ul class="social-icons">
+              			<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              			<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              			<li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+              			<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            		</ul>
+          		</div>
+
+        	</div>	
+      	</div>
+      	
+      	<hr>
+      	<div class="containe">
+        	<div class="row">
+          		<div class="col-md-8 col-sm-6 col-xs-12">
+            		<p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
+         				<a href="#">First Choice</a>.
+            		</p>
+          		</div>
+
+        	</div>
+      	</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+
+</body>
+</html>
